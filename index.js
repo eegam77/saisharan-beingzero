@@ -9,5 +9,5 @@ var student = {}
 student.name = "Being Zero"
 student.college="VNRVJIET"
 student.regno="112323232"
-app.get('/data', (req, res)=> res.json(student.name));
+app.get('/data', (req, res)=> res.json(student));
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
